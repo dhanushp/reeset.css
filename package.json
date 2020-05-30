@@ -1,0 +1,27 @@
+{
+  "name": "reeset.css",
+  "version": "1.0.0",
+  "description": "Simple and Minimal css reset",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass reeset.scss reeset.css -w",
+    "minify": "node-sass --watch reeset.scss reeset.min.css --output-style compressed -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhanushp/reeset.css.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Dhanush P",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dhanushp/reeset.css/issues"
+  },
+  "homepage": "https://github.com/dhanushp/reeset.css#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
